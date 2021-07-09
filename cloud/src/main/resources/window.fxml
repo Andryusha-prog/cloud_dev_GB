@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Loader">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="269.0" prefWidth="492.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Button onAction="#sendClick" layoutX="272.0" layoutY="108.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="96.0" text="Download" />
+            <Label fx:id="output" alignment="CENTER" layoutX="219.0" layoutY="354.0" prefHeight="27.0" prefWidth="190.0"  />
+            <ListView fx:id="listView" layoutX="14.0" layoutY="20.0" prefHeight="312.0" prefWidth="210.0" />
+            <ListView fx:id="listView1" layoutX="401.0" layoutY="14.0" prefHeight="312.0" prefWidth="210.0" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
