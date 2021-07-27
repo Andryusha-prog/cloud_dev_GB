@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.Loader">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="269.0" prefWidth="492.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Button layoutX="272.0" layoutY="108.0" mnemonicParsing="false" onAction="#sendClick" prefHeight="62.0" prefWidth="96.0" text="Upload" />
+            <Button layoutX="272.0" layoutY="200.0" mnemonicParsing="false" onAction="#download" prefHeight="62.0" prefWidth="96.0" text="Download" />
+            <Label fx:id="output" alignment="CENTER" layoutX="219.0" layoutY="354.0" prefHeight="27.0" prefWidth="190.0" />
+            <ListView fx:id="listView" layoutX="14.0" layoutY="44.0" prefHeight="312.0" prefWidth="210.0" />
+            <ListView fx:id="listView1" layoutX="402.0" layoutY="44.0" prefHeight="312.0" prefWidth="210.0" />
+            <TextField fx:id="clientPath" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="174.0" />
+            <Button onAction="#clientPathUp" layoutX="195.0" layoutY="14.0" mnemonicParsing="false" text="..." />
+            <Button onAction="#serverPathUp" layoutX="588.0" layoutY="14.0" mnemonicParsing="false" text="..." />
+            <TextField fx:id="serverPath" layoutX="402.0" layoutY="14.0" prefHeight="25.0" prefWidth="174.0" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
