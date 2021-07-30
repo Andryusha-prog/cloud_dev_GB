@@ -1,0 +1,9 @@
+model\FileRequest.class
+model\PathUpResponse.class
+model\AbstractCommand.class
+model\PathInRequest.class
+model\ListResponse.class
+model\PathUpRequest.class
+model\FileMessage.class
+model\ListRequest.class
+model\CommandType.class
